@@ -6,17 +6,64 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
   color: #f3f3f3;
   padding: 5px;
 }
 
 .header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  border-radius: 10px;
+  background: #000000;
   text-align: center;
   margin-bottom: 20px;
+  z-index: 999;
 }
-.header h1 {
-  color: #f23456;
+.header ul, .header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  border-radius: 10px;
+  color: #f3f3f3;
+  padding: 14px;
+  margin: 5px;
+}
+
+.efect, ul, a {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin: 1px;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  text-decoration: none;
+  list-style-type: none;
+  color: #f3f3f3;
+  background-color: #000000;
+  margin: 5px;
+}
+
+.text {
+  height: 75px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  border-radius: 10px;
+}
+
+.boxext {
+  background-color: #da8e9c;
 }
 
 .product-container {
@@ -58,7 +105,7 @@ body {
 .product-container img:hover-info p {
   font-size: 1.2rem;
   margin-bottom: 10px;
-  color: #f23456;
+  color: #da8e9c;
 }
 .product-container img:hover-info input[type=number] {
   width: 60px;
@@ -93,4 +140,7 @@ body {
   .product-container .card, .box .card {
     width: 100%;
   }
+}
+.footer {
+  font-size: 10px;
 }/*# sourceMappingURL=styles.css.map */

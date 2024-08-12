@@ -1,5 +1,8 @@
 @use 'variables' 
 @use 'mixins'
+
+$background-img: './assets/BR10094.jpg'
+
 *
   margin: 0
   padding: 0
@@ -7,16 +10,36 @@
 
 body
   font-family: Arial, sans-serif
-  background-color: #f4f4f4
   color: variables.$secondary-color
   padding: variables.$padding
 
 .header
+  position: fixed
+  @include mixins.flex-conteiner
+  background: variables.$Terciario-color
   text-align: center
   margin-bottom: 20px
+  z-index: 999
 
-  h1
-    color: variables.$primary-color
+  ul,a
+    @include mixins.flex-conteiner
+    color: variables.$secondary-color
+    padding: 14px
+    margin: 5px
+
+.efect,ul,a
+  @include mixins.efect
+  color: variables.$secondary-color
+  background-color: variables.$Terciario-color
+  margin: 5px
+
+.text
+  height: 75px
+  color: variables.$Terciario-color
+  @include mixins.flex-conteiner
+
+.boxext
+  background-color: variables.$primary-color
 
 .product-container
   display: flex
@@ -86,3 +109,5 @@ body
 
     .card
       width: 100%
+.footer
+  font-size: 10px

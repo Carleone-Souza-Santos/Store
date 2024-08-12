@@ -1,11 +1,11 @@
-# Projeto de Loja de Produtos
-# Este projeto foi desenvolvido como uma demonstração de uma loja de produtos online, utilizando HTML e SASS para criar uma interface responsiva e moderna. O objetivo é apresentar uma vitrine digital onde os produtos são exibidos em cards com imagens, preços e opções de quantidade, proporcionando uma experiência de usuário agradável em qualquer dispositivo.
+ <h1>Projeto de Loja de Produtos </h1>
+ Este projeto foi desenvolvido como uma demonstração de uma loja de produtos online, utilizando HTML e SASS para criar uma interface responsiva e moderna. O objetivo é apresentar uma vitrine digital onde os produtos são exibidos em cards com imagens, preços e opções de quantidade, proporcionando uma experiência de usuário agradável em qualquer dispositivo.
 
-# Tecnologias Utilizadas
-# HTML5: Estrutura da página e organização dos elementos.
-# SASS (CSS3): Estilização avançada com variáveis, mixins e organização modular do código CSS.
-# JavaScript (futuro): Planejado para adicionar interatividade, como a funcionalidade de carrinho de compras.
-# Estrutura do Projeto
+Tecnologias Utilizadas
+ HTML5: Estrutura da página e organização dos elementos.
+ SASS (CSS3): Estilização avançada com variáveis, mixins e organização modular do código CSS.
+
+Estrutura do Projeto
 # index.html: Contém a estrutura principal da página, incluindo os cards de produtos.
 # styles.scss: Arquivo SASS que define os estilos da página, como cores, tipografia e layout responsivo.
 # assets/: Pasta que armazena as imagens dos produtos exibidos na loja.
@@ -33,30 +33,7 @@
 # sass styles.scss styles.css
 # Abra o arquivo index.html no seu navegador para visualizar a página.
 
-# Contribuições
-# Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias, correções de bugs ou novas funcionalidades.
-
-# Esse texto é claro e objetivo, destacando as principais etapas do desenvolvimento e as tecnologias utilizadas.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # npm install -g sass
-
 # sass --watch sass/styles.sass:css/styles.css
 
 
